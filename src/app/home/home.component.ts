@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faHeart } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  faHeart = faHeart;
 
-  constructor() { }
+  constructor() { 
+    console.log('HomeComponent');
+  }
 
   ngOnInit(): void {
+  }
+  ngAfterViewInit(): void {
+    console.log('ngAfterViewInit');
   }
 
 }
