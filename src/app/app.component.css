@@ -33,7 +33,13 @@
 @media screen and (max-width: 819px) {
     
     .searchinput-box {
-        display: none;
+        display: none!important;
+        width: 0;
+        padding: 0;
+    }
+    .searchinput-box svg {
+        display: none!important;
+        width: 0;
     }
     .searchinput {
         display: none;
