@@ -28,3 +28,17 @@
 .searchinput:hover {
     cursor: text;
 }
+
+
+@media screen and (max-width: 819px) {
+    
+    .searchinput-box {
+        display: none;
+    }
+    .searchinput {
+        display: none;
+    }
+    .myheader {
+        overflow-x: hidden;
+    }
+}

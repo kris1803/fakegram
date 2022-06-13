@@ -142,3 +142,16 @@
 .open-profile:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 819px) {
+
+    .suggestions {
+        display: none;
+    }
+    .all-content {
+        min-width: 100%;
+    }
+    .maincontent {
+        min-width: 100%;
+    }
+}
